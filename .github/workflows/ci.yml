@@ -54,7 +54,7 @@ jobs:
         SPRING_DATASOURCE_PASSWORD: root
 
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v5
       if: matrix.java == '11'
       with:
         file: ./mybatis-max-test/target/site/jacoco/jacoco.xml
