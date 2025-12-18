@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.talins.mybatis.max.web.config.WebConfiguration,cn.talins.mybatis.max.web.BaseRest,cn.talins.mybatis.max.web.config.GlobalExceptionHandler

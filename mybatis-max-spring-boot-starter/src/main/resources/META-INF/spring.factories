@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.talins.mybatis.max.starter.BeanConfiguration
