@@ -1,0 +1,29 @@
+# CODEOWNERS file
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, these users will be requested for
+# review when someone opens a pull request.
+
+# Default owners for everything
+* @talins
+
+# API module
+/mybatis-max-api/ @talins
+
+# SDK module
+/mybatis-max-sdk/ @talins
+
+# Spring Boot Starter
+/mybatis-max-spring-boot-starter/ @talins
+
+# Web module
+/mybatis-max-web/ @talins
+
+# Test module
+/mybatis-max-test/ @talins
+
+# Documentation
+*.md @talins
+/docs/ @talins
+
+# CI/CD configuration
+/.github/ @talins

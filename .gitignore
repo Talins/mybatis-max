@@ -1,0 +1,130 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+*.rar
+
+# Build output
+target/
+build/
+bin/
+out/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Log files
+*.log
+logs/
+
+# Dependency directories
+lib/
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Test output
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Coverage reports
+*.exec
+jacoco.exec
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Local configuration
+application-local.yml
+application-local.properties
+*-local.yml
+*-local.properties
+
+# Secrets (never commit these!)
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+
+# Database files
+*.db
+*.sqlite
+*.h2.db
+
+# Generated documentation
+docs/_build/
+site/
+
+# Spring Boot
+spring-boot-devtools.properties
